@@ -1,0 +1,18 @@
+.myInput {
+  width: 100%;
+  padding: 5px 15px;
+  margin: 5px 0;
+  border-radius: 3px;
+  border: 1px solid #b27bc4;
+  background-color: #b996c3;
+  color: #413c58;
+}
+
+.myInput::placeholder {
+  color: #413c58;
+}
+
+.myInput select,
+textarea {
+  color: #413c58;
+}

@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+  background-color: #e7efc5;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+}
+
+.about {
+  margin: auto;
+  margin-top: 30px;
+}
+
+.posts {
+  margin: auto;
+  width: 800px;
+}
+
+.post {
+  display: flex;
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid #b27bc4;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post__btns {
+  display: flex;
+}
+
+.post__btns > * {
+  margin: 0 5px;
+}
+
+.post-enter {
+  transform: translateX(-350px);
+}
+
+.post-enter-active {
+  transform: translateX(0px);
+  transition: all 500ms ease-in;
+}
+
+.post-exit {
+  opacity: 1;
+}
+
+.post-exit-active {
+  transform: translateX(-350px);
+  transition: all 500ms ease-in;
+}
+
+.post-title {
+  padding: 2rem 0;
+}
+
+.post-page-padding {
+  padding: 2rem 0;
+}
+
+.post-page-padding-little {
+  padding: 1rem 0;
+}
+
+.post-page {
+  padding: 15px;
+  border-radius: 5px;
+  border: 2px solid #b27bc4;
+  align-items: center;
+  margin-bottom: 1rem;
+}

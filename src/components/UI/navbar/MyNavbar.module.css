@@ -1,0 +1,23 @@
+.navbar {
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+  background-color: #b27bc4;
+}
+
+.navbarLinks {
+  margin-left: auto;
+  outline: none;
+  background: transparent;
+  color: red;
+}
+
+.navbarLink {
+  text-decoration: none;
+  background: transparent;
+  color: #413c58;
+  margin: 0 20px;
+  font-weight: 600;
+}

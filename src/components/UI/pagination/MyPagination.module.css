@@ -1,0 +1,31 @@
+.paginationWrap {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pageButton {
+  margin: 0 10px;
+  padding: 5px 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: #bfd7b5;
+  color: #413c58;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pageButtonCurrent {
+  color: #bfd7b5;
+  background: #413c58;
+  margin: 0 10px;
+  padding: 5px 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600;
+  cursor: pointer;
+}
